@@ -21,6 +21,9 @@ module TextAppRailsAPI
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
+    
+    #To make sure everything will work, the contents of the lib directory have to be included when the Rails application loads.
+    config.autoload_paths << Rails.root.join('lib')
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers

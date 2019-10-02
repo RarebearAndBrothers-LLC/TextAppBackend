@@ -13,3 +13,11 @@ Awesome and explicit source for API Auth: https://www.pluralsight.com/guides/tok
     -We need methods for checking if the user is authenticated.
     -Controllers for creating and logging in users are also necessary.
     -We need routes for creating users and logging them in and out.  
+
+Singleton Class: 
+    -a singleton class restricts the instantiation of a class to a single object, which comes in handy when only one object is needed to complete the tasks at hand.
+
+Authentication:
+    -simple_command gem 
+    -Instead of using private controller methods, simple_command can be used. For more information about installation, check out the article simple_command.
+

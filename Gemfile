@@ -14,7 +14,12 @@ gem 'puma', '~> 3.11'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
+#Use JWT token for encoding/decoding
+gem 'jwt'
+  
+#The simple command gem is an easy way to create services. Its role is similar to the role of a helper, but it instead facilitates the connection between the controller and the model, rather than the controller and the view. In this way, we can shorten the code in the models and controllers.
+gem 'simple_command'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
