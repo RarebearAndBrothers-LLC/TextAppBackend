@@ -3,3 +3,13 @@ Set Up Auth with Redux.
 Part 1: https://medium.com/@christine_tran/part-1-create-react-app-rails-api-authentication-with-jwt-tokens-and-redux-e14c7e788989 
     - Knock Gem: Knock is an authentication solution for Rails API-only application based on JSON Web Tokens.
 Part 2: https://medium.com/@christine_tran/part-2-create-react-app-rails-api-authentication-with-jwt-tokens-and-redux-bf3009f2abcd
+
+Not enough code along, refrence; might get lost aong the way. Need to make sure I can find a source that can take me through start to finish. Will keep looking.. 
+Maybe video source? Maybe Set up rails API and React-Redux first? 
+
+Awesome and explicit source for API Auth: https://www.pluralsight.com/guides/token-based-authentication-with-ruby-on-rails-5-api 
+    -We need an accessible model.
+    -A way of encoding and decoding JWT tokens must be implemented.
+    -We need methods for checking if the user is authenticated.
+    -Controllers for creating and logging in users are also necessary.
+    -We need routes for creating users and logging them in and out.  
