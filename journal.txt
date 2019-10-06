@@ -31,4 +31,7 @@ Cant run Rails commands in terminal; saying Rails is not installed in system. Ra
 
 -> Need to update Ruby version on Mac. 
     -https://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite
-        -> First answer will show you how to update Ruby via RVM. 
+        -> First answer will show you how to update Ruby via RVM.
+Install ruby 2.6+ 
+-> cant install with 'bundle i', need to ensure pg is isntaled before bundle
+-will try this next:  https://wikimatze.de/installing-postgresql-gem-under-ubuntu-and-mac/
