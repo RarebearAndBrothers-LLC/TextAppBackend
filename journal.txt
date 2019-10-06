@@ -27,3 +27,8 @@ Auth works! Tested with user and got back a token!!
 In Rails 5, instead of having modules inhereit from ACtiveREcord::Base 'self.abstract_class = true' is added to ApplicationController. Now, the other modules will simply inhereit from ApplicationController. 
     -https://blog.bigbinary.com/2015/12/28/application-record-in-rails-5.html
 
+Cant run Rails commands in terminal; saying Rails is not installed in system. Ran 'sudo gem install rails'.
+
+-> Need to update Ruby version on Mac. 
+    -https://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite
+        -> First answer will show you how to update Ruby via RVM. 
