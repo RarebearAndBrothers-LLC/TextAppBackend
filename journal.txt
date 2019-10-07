@@ -50,4 +50,6 @@ cant view a users todos? getting unauthroized.
 
 -> need to create a sessions contorller and have app run a function to check which suer is currently logged in. 
 -> https://medium.com/@wintermeyer/authentication-from-scratch-with-rails-5-2-92d8676f6836
+
+sessions will save user info so that user can stay logged in to application, we need to ensure no overlap between code written in RAils app thus far and the one we want to write for sessions. 
 ---------------
