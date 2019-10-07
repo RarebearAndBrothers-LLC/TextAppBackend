@@ -43,3 +43,11 @@ https://blog.f5.works/issue-during-gem-install-pg-with-postgresapp/
 CORS : https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 rails c not working, fix: -> ln -s /usr/local/opt/readline/lib/libreadline.8.0.dylib /usr/local/opt/readline/lib/libreadline.7.dylib
+
+---------------
+
+cant view a users todos? getting unauthroized.
+
+-> need to create a sessions contorller and have app run a function to check which suer is currently logged in. 
+-> https://medium.com/@wintermeyer/authentication-from-scratch-with-rails-5-2-92d8676f6836
+---------------
