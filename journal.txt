@@ -35,3 +35,11 @@ Cant run Rails commands in terminal; saying Rails is not installed in system. Ra
 Install ruby 2.6+ 
 -> cant install with 'bundle i', need to ensure pg is isntaled before bundle
 -will try this next:  https://wikimatze.de/installing-postgresql-gem-under-ubuntu-and-mac/
+
+seems to be the way pg was installed and setup
+https://blog.f5.works/issue-during-gem-install-pg-with-postgresapp/
+---------------
+
+CORS : https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+
+rails c not working, fix: -> ln -s /usr/local/opt/readline/lib/libreadline.8.0.dylib /usr/local/opt/readline/lib/libreadline.7.dylib

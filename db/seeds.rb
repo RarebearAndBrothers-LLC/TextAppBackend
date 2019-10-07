@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+ryan = User.create(name: "Ryan", email: "ryaboug@gmail.com", cell: "7324298203", password: "Lebanon1")
+todo1 = Todo.create(title: "Buy food: milk, bread, fruits", done: false, user_id: ryan.id)
+
