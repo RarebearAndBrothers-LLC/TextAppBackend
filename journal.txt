@@ -53,3 +53,23 @@ cant view a users todos? getting unauthroized.
 
 sessions will save user info so that user can stay logged in to application, we need to ensure no overlap between code written in RAils app thus far and the one we want to write for sessions. 
 ---------------
+
+Not giving up on this idea; we can make it come to fruition. 
+excellent read on the subject -> https://medium.com/@sherryhsu/session-vs-token-based-authentication-11a6c5ac45e4 
+
+
+Sessions: 
+
+bascially sesssion based authentication creates a session on the server-side and sends along a session_id on a cookie on the users' browser. Whiel the user stays logged the cookier would be sent along with every subsequent request. The server can then compare the session id stored on the cookie against the session information stored in the memory to verify user’s identity and sends response with the corresponding state!
+
+vs. 
+
+Tokens: jwt
+
+the server creates JWT with a secret and sends the JWT to the client. The client stores the JWT (usually in local storage) and includes JWT in the header with every request. The server would then validate the JWT with every request from the client and sends response.
+----------------
+Scalability:
+
+Session based authentication: Because the sessions are stored in the server’s memory, scaling becomes an issue when there is a huge number of users using the system at once.
+
+Token based authentication: There is no issue with scaling because token is stored on the client side.
