@@ -73,3 +73,6 @@ Scalability:
 Session based authentication: Because the sessions are stored in the server’s memory, scaling becomes an issue when there is a huge number of users using the system at once.
 
 Token based authentication: There is no issue with scaling because token is stored on the client side.
+
+dont use local stoarge: Ryan Ghaida 1:17 PM
+https://www.rdegges.com/2018/please-stop-using-local-storage/
